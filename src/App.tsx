@@ -76,7 +76,7 @@ function App() {
   const saveSchool = (e: FormEvent<Element>) => {
     e.preventDefault();
     setAllSchoolData([...allSchoolData, singleSchoolData])
-    setSingleSchoolData({nameSchule: "", abschluss: "", datumAbschluss: "", fach: ""})
+    setSingleSchoolData({nameSchule: " ", abschluss: " ", datumAbschluss: " ", fach: " "})
   }
 
   const saveWorkplaces = (e: FormEvent<Element>) => {
