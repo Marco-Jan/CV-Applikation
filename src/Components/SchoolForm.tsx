@@ -13,7 +13,7 @@ type Schools = {
   
   function lastItem(allSchools: Schools[], school: Schools) {
   if (allSchools[allSchools.length-1].nameSchule !== school.nameSchule) {
-    return (<hr/>)
+    return 
   }
   }
   

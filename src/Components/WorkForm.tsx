@@ -13,7 +13,7 @@ type Workplaces = {
 
   function lastItem(allWorkplaces: Workplaces[], work: Workplaces) {
     if (allWorkplaces[allWorkplaces.length-1].firmenname !== work.firmenname) {
-      return (<hr/>)
+      return 
     }
     }
 
